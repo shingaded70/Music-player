@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #121212, #1a1a1a);
+  color: white;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1DB954;
+  font-size: 2.2rem;
+}
+
+.player {
+  background: #282828;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.album-art {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+audio {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.playlist {
+  background: #282828;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.playlist ul {
+  text-align: left;
+  padding-left: 20px;
+}
